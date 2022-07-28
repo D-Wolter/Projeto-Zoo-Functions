@@ -31,4 +31,14 @@ describe('Testes da função HandlerElephants', () => {
     const expected = undefined;
     expect(actual).toEqual(expected);
   });
+  it('verifica se passado argumento invalido retorna null', () => {
+    const actual = handlerElephants({});
+    const expected = 'Parâmetro inválido, é necessário uma string';
+    expect(actual).toEqual(expected);
+  });
+  it('verifica se passado argumento invalido retorna null', () => {
+    const actual = handlerElephants('daniel');
+    const expected = null;
+    expect(actual).toEqual(expected);
+  });
 });
