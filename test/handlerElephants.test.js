@@ -13,8 +13,22 @@ describe('Testes da função HandlerElephants', () => {
   });
   it('recebendo como parâmetro "averageAge" e conferindo o retorno é um numero proximo a 10.5', () => {
     const actual = handlerElephants('averageAge');
-
     const expected = 10.5;
+    expect(actual).toEqual(expected);
+  });
+  it('recebendo como parâmetro "location" e conferindo se o retorno é uma string NW', () => {
+    const actual = handlerElephants('location');
+    const expected = 'NW';
+    expect(actual).toEqual(expected);
+  });
+  it('recebendo como parâmetro "popularity" deve retornar um array de dias da semana que não contém Monday', () => {
+    const actual = handlerElephants('popularity');
+    const expected = 5;
+    expect(actual).toEqual(expected);
+  });
+  it('Não passando argumentos a função deve retornar undefined;', () => {
+    const actual = handlerElephants();
+    const expected = undefined;
     expect(actual).toEqual(expected);
   });
 });

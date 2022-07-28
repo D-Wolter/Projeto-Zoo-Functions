@@ -35,4 +35,4 @@ const handlerElephants = (param) => {
 
 module.exports = handlerElephants;
 
-console.log(typeof handlerElephants('names'));
+console.log(handlerElephants('availability'));
