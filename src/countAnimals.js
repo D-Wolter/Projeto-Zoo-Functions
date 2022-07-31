@@ -1,11 +1,12 @@
-const data = require('../data/zoo_data');
+const data = require("../data/zoo_data");
 
 function entrada(animal) {
   if (Object.values(animal).length === 2) {
     return data.species
       .filter((especie) => especie.name === Object.values(animal)[0])
       .map((elem) =>
-        elem.residents.filter((s) => s.sex === Object.values(animal)[1]))
+        elem.residents.filter((s) => s.sex === Object.values(animal)[1])
+      )
       .reduce((cont, resultado) => cont + resultado.length, 0);
   }
   return data.species
