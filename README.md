@@ -22,4 +22,4 @@ Para rodar esse projeto no seu computador, abra o terminal e siga o passo-a-pass
 
 1. Instale as dependências `npm install`
 2. ultilize o comando `npm run test` para iniciar os testes unitários
-3. ultilize o comando ǹpm run test:coverage` para verificar a porcetagem de cobertura dos testes.
+3. ultilize o comando `npm run test:coverage` para verificar a porcetagem de cobertura dos testes.
