@@ -21,5 +21,5 @@ Esse projeto simula um sistema de relatório de um zoológico que possui informa
 Para rodar esse projeto no seu computador, abra o terminal e siga o passo-a-passo a seguir:
 
 1. Instale as dependências `npm install`
-2. Inicialize o projeto com a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) do [Visual Studio Code](https://code.visualstudio.com/) `Go Live`
-3. O navegador vai abrir uma nova aba com a página do projeto 
+2. ultilize o comando `npm run test` para iniciar os testes unitários
+3. ultilize o comando ǹpm run test:coverage` para verificar a porcetagem de cobertura dos testes.
