@@ -2,7 +2,7 @@
 
 ## :page_facing_up: Sobre
 
-Projeto do Bloco 8 - Higher Order Functions do JavaScript ES6 do curso de Desenvolvimento Web da [Trybe](https://www.betrybe.com).<br>
+Projeto envolve Higher Order Functions do JavaScript ES6 do curso de Desenvolvimento Web da [Trybe](https://www.betrybe.com).<br>
 Esse projeto simula um sistema de relatório de um zoológico que possui informações a respeito dos animais presentes no zoológico, colaboradores, horários de funcionamento e uma tabela de preços que varia de acordo com a idade das pessoas que o visitam.<br><br>
 
 ## :computer: Habilidades desenvolvidas
