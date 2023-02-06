@@ -16,6 +16,8 @@ Esse projeto simula um sistema de relatório de um zoológico que possui informa
   <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" title="JavaScript"><img alt="JavaScript icon" height="20px" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />JavaScript</a>
 </div>
 
+  <img src="./Screenshot_351.png" alt="screenVScode" />
+
 ## Iniciar
 
 Para rodar esse projeto no seu computador, abra o terminal e siga o passo-a-passo a seguir:
